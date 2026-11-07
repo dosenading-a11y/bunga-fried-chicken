@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bunga Fried Chicken - ayam crispy, lezat, dan ramah di kantong. Lihat menu dan pesan sekarang.">
+  <meta name="theme-color" content="#c62828">
+  <title>Bunga Fried Chicken | Renyahnya Bikin Bahagia</title>
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="announcement">🍗 Lagi lapar? Saatnya makan enak bersama Bunga Fried Chicken!</div>
+  <header class="site-header" id="home">
+    <nav class="navbar container" aria-label="Navigasi utama">
+      <a class="brand" href="#home" aria-label="Bunga Fried Chicken - Beranda">
+        <img src="images/logo.svg" alt="" width="46" height="46">
+        <span><strong>BUNGA</strong><small>FRIED CHICKEN</small></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang</a>
+        <a href="#menu">Menu</a>
+        <a href="#promo">Promo</a>
+        <a href="#contact">Kontak</a>
+        <a class="btn btn-small btn-red nav-order" href="#menu">Pesan Sekarang</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-shape shape-one"></div><div class="hero-shape shape-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> CRISPY • JUICY • DELICIOUS</span>
+          <h1>Renyahnya Bikin <span>Bahagia!</span></h1>
+          <p>Nikmati ayam goreng crispy dengan rasa lezat, pilihan menu favorit, dan harga yang ramah di kantong.</p>
+          <div class="hero-actions">
+            <a class="btn btn-yellow" href="#menu">Lihat Menu <span aria-hidden="true">→</span></a>
+            <a class="btn btn-outline" href="#about">Kenali Kami</a>
+          </div>
+          <div class="hero-note"><span class="stars">★★★★★</span><span>Teman makan seru setiap hari</span></div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-image-wrap">
+            <img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=1000&q=85" alt="Ayam goreng crispy keemasan yang menggugah selera">
+          </div>
+          <div class="floating-tag"><span>🍗</span><div><strong>Fresh & Crispy</strong><small>Dimasak untuk kamu</small></div></div>
+          <div class="hero-sticker">GOOD<br>FOOD<br><b>GOOD MOOD!</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <div><span class="trust-icon">🍗</span><span><strong>Ayam Crispy</strong><small>Renyah dan lezat</small></span></div>
+        <div><span class="trust-icon">💛</span><span><strong>Harga Bersahabat</strong><small>Cocok untuk semua</small></span></div>
+        <div><span class="trust-icon">🥡</span><span><strong>Praktis Dibawa</strong><small>Pas untuk kapan saja</small></span></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual">
+          <img src="https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=900&q=85" alt="Hidangan ayam goreng crispy">
+          <div class="about-stamp">ENAK<br><b>SETIAP</b><br>GIGITAN</div>
+        </div>
+        <div class="section-copy">
+          <span class="eyebrow">CERITA KAMI</span>
+          <h2>Kenalan dengan <span>Bunga Fried Chicken</span></h2>
+          <p>Bunga Fried Chicken hadir untuk menemani waktu makanmu dengan sajian ayam goreng yang lezat dan menggugah selera. Kami ingin menghadirkan pengalaman makan yang menyenangkan dengan pilihan menu yang cocok dinikmati bersama keluarga dan teman.</p>
+          <p>Website ini merupakan halaman informasi dan katalog. Hubungi kami untuk menanyakan ketersediaan menu dan melakukan pemesanan.</p>
+          <a class="text-link" href="#contact">Hubungi kami <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="menu">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">PILIHAN FAVORIT</span>
+          <h2>Menu <span>Andalan</span></h2>
+          <p>Temukan menu favoritmu. Harga di bawah merupakan contoh dan dapat disesuaikan oleh pemilik usaha.</p>
+        </div>
+        <div class="filter-row" role="group" aria-label="Filter kategori menu">
+          <button class="filter-btn active" data-filter="all">Semua</button>
+          <button class="filter-btn" data-filter="chicken">Ayam</button>
+          <button class="filter-btn" data-filter="paket">Paket Hemat</button>
+          <button class="filter-btn" data-filter="snack">Snack</button>
+        </div>
+        <div class="menu-grid" id="menuGrid">
+          <article class="menu-card" data-category="chicken">
+            <div class="menu-photo"><img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=700&q=80" alt="Chicken original"><span class="menu-label">Favorit</span></div>
+            <div class="menu-info"><div class="menu-title"><h3>Chicken Original</h3><strong>Rp12.000</strong></div><p>Ayam goreng crispy dengan rasa gurih klasik.</p><button class="order-link" data-product="Chicken Original" data-price="12000">Pesan menu <span>↗</span></button></div>
+          </article>
+          <article class="menu-card" data-category="chicken">
+            <div class="menu-photo"><img src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=700&q=80" alt="Chicken spicy"></div>
+            <div class="menu-info"><div class="menu-title"><h3>Chicken Spicy</h3><strong>Rp14.000</strong></div><p>Ayam crispy dengan sensasi bumbu pedas.</p><button class="order-link" data-product="Chicken Spicy" data-price="14000">Pesan menu <span>↗</span></button></div>
+          </article>
+          <article class="menu-card" data-category="paket">
+            <div class="menu-photo"><img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=700&q=80" alt="Paket nasi ayam"></div>
+            <div class="menu-info"><div class="menu-title"><h3>Paket Nasi Ayam</h3><strong>Rp17.000</strong></div><p>Ayam crispy, nasi hangat, dan saus pilihan.</p><button class="order-link" data-product="Paket Nasi Ayam" data-price="17000">Pesan menu <span>↗</span></button></div>
+          </article>
+          <article class="menu-card" data-category="paket">
+            <div class="menu-photo"><img src="https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=700&q=80" alt="Paket komplit ayam"></div>
+            <div class="menu-info"><div class="menu-title"><h3>Paket Komplit</h3><strong>Rp22.000</strong></div><p>Paket mengenyangkan untuk makan lebih puas.</p><button class="order-link" data-product="Paket Komplit" data-price="22000">Pesan menu <span>↗</span></button></div>
+          </article>
+          <article class="menu-card" data-category="snack">
+            <div class="menu-photo"><img src="https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=700&q=80" alt="Chicken nugget"></div>
+            <div class="menu-info"><div class="menu-title"><h3>Chicken Nugget</h3><strong>Rp10.000</strong></div><p>Camilan gurih dan renyah untuk teman santai.</p><button class="order-link" data-product="Chicken Nugget" data-price="10000">Pesan menu <span>↗</span></button></div>
+          </article>
+          <article class="menu-card" data-category="snack">
+            <div class="menu-photo"><img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=700&q=80" alt="French fries"></div>
+            <div class="menu-info"><div class="menu-title"><h3>French Fries</h3><strong>Rp8.000</strong></div><p>Kentang goreng hangat dengan tekstur renyah.</p><button class="order-link" data-product="French Fries" data-price="8000">Pesan menu <span>↗</span></button></div>
+          </article>
+        </div>
+        <p class="price-note">*Harga dan foto produk pada template ini bersifat ilustrasi. Silakan ganti sesuai kondisi usaha sebenarnya.</p>
+      </div>
+    </section>
+
+    <section class="promo-section" id="promo">
+      <div class="container promo-box">
+        <div><span class="eyebrow eyebrow-light">MAKAN ENAK, MAKIN HEMAT</span><h2>Ajak Teman, <span>Tambah Seru!</span></h2><p>Tanyakan promo paket dan penawaran terbaru langsung kepada tim Bunga Fried Chicken.</p><a class="btn btn-yellow" href="#contact">Tanya Promo <span>→</span></a></div>
+        <div class="promo-art"><div class="promo-circle">SPECIAL<br><strong>DEAL</strong><br>FOR YOU!</div><span class="promo-emoji">🍗</span></div>
+      </div>
+    </section>
+
+    <section class="section testimonial-section">
+      <div class="container">
+        <div class="section-heading"><span class="eyebrow">KATA MEREKA</span><h2>Cerita <span>Pelanggan</span></h2><p>Contoh tampilan testimoni. Ganti dengan ulasan pelanggan asli setelah mendapat izin.</p></div>
+        <div class="testimonial-grid">
+          <article class="quote-card"><div class="stars">★★★★★</div><p>“Ayamnya terlihat menggugah selera. Pilihan menunya juga menarik!”</p><strong>— Pelanggan Bunga</strong></article>
+          <article class="quote-card"><div class="stars">★★★★★</div><p>“Paket nasi ayam cocok untuk makan siang. Harganya juga bersahabat.”</p><strong>— Pelanggan Bunga</strong></article>
+          <article class="quote-card"><div class="stars">★★★★★</div><p>“Suka dengan pilihan menu crispy-nya. Semoga makin banyak pilihan.”</p><strong>— Pelanggan Bunga</strong></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-grid">
+        <div><span class="eyebrow eyebrow-light">KAMI SIAP MELAYANI</span><h2>Yuk, Pesan <span>Sekarang!</span></h2><p>Hubungi Bunga Fried Chicken untuk pemesanan, informasi menu, dan promo terbaru.</p>
+          <div class="contact-details">
+            <div><span>📱</span><p><strong>WhatsApp</strong><small>Ganti dengan nomor WhatsApp usaha</small></p></div>
+            <div><span>📍</span><p><strong>Alamat</strong><small>Tambahkan alamat lengkap usaha</small></p></div>
+            <div><span>📷</span><p><strong>Instagram</strong><small>Tambahkan akun Instagram usaha</small></p></div>
+          </div>
+        </div>
+        <div class="contact-card"><div class="contact-card-icon">🍗</div><h3>Bunga Fried Chicken</h3><p>Renyahnya bikin bahagia!</p><a class="btn btn-yellow btn-full" id="contactOrder" href="#">Chat WhatsApp <span>↗</span></a><small>Pastikan nomor WhatsApp sudah diatur pada file js/script.js.</small></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand brand-footer" href="#home"><img src="images/logo.svg" alt="" width="40" height="40"><span><strong>BUNGA</strong><small>FRIED CHICKEN</small></span></a><p>© <span id="year"></span> Bunga Fried Chicken. Dibuat untuk project pembelajaran.</p><a href="#home" class="back-top">Kembali ke atas ↑</a></div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
